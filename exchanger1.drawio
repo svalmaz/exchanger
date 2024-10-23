@@ -1,9 +1,123 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" version="24.8.0">
   <diagram name="Страница — 1" id="gCSXsW7qYMQecbnX13WU">
-    <mxGraphModel>
+    <mxGraphModel dx="1665" dy="1723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="C-UnRPChBUDnNunHakPT-1" value="&lt;font style=&quot;font-size: 42px;&quot;&gt;Exchanger &amp;nbsp;structure&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="-1169" width="920" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-3" value="sell" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="C-UnRPChBUDnNunHakPT-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="-1020" as="sourcePoint" />
+            <mxPoint x="270" y="-1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-5" value="Post" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-1060" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-6" value="Request&lt;div&gt;json {&lt;/div&gt;&lt;div&gt;method Bool:&lt;/div&gt;&lt;div&gt;1.sell 0.buy&lt;/div&gt;&lt;div&gt;user id&lt;/div&gt;&lt;div&gt;currency 1 float&lt;/div&gt;&lt;div&gt;currency 2 float&lt;/div&gt;&lt;div&gt;time int&lt;/div&gt;&lt;div&gt;amount int&lt;/div&gt;&lt;div&gt;payment [int]&lt;/div&gt;&lt;div&gt;limitMin: 100&lt;/div&gt;&lt;div&gt;limitMax: 1000&lt;/div&gt;&lt;div&gt;price float&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-1099" width="390" height="229" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.114;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="C-UnRPChBUDnNunHakPT-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="-1020" as="sourcePoint" />
+            <mxPoint x="870" y="-1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.003;exitY=0.852;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="C-UnRPChBUDnNunHakPT-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="-1020" as="sourcePoint" />
+            <mxPoint x="870" y="-904" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="-1100" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-10" value="ok" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="-1110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-11" value="err" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="-940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-12" value="message&lt;div&gt;&quot;operation ended successfully&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="-1080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="-930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-14" value="&lt;div&gt;err&lt;/div&gt;message&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="-910" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-16" value="filter" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-715" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-18" value="filter" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-715" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="C-UnRPChBUDnNunHakPT-17" target="C-UnRPChBUDnNunHakPT-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="-850" as="sourcePoint" />
+            <mxPoint x="240" y="-700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-780" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-21" value="currency 1 float&lt;div&gt;currency 2 float&lt;br&gt;&lt;/div&gt;&lt;div&gt;amount int&lt;/div&gt;&lt;div&gt;payment&lt;/div&gt;&lt;div&gt;method bool&lt;/div&gt;&lt;div&gt;price float&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mb null&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="291" y="-727" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="C-UnRPChBUDnNunHakPT-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="-700" as="sourcePoint" />
+            <mxPoint x="630" y="-740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.008;exitY=0.806;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="C-UnRPChBUDnNunHakPT-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="-790" as="sourcePoint" />
+            <mxPoint x="630" y="-651" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-24" value="ok" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-780" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-25" value="err" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-685" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-26" value="list&amp;lt;ad&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-28" value="&lt;div&gt;err&lt;/div&gt;message&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-665" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-31" value="filter" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-485" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-33" value="orders" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-485" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="C-UnRPChBUDnNunHakPT-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="-690" as="sourcePoint" />
+            <mxPoint x="200" y="-470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-UnRPChBUDnNunHakPT-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-540" width="250" height="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
